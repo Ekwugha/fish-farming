@@ -1,0 +1,10 @@
+.vheight{
+    min-height : 40vh;
+}
+.nounderline {
+    text-decoration: none !important;
+    color: grey !important;
+}
+.font {
+    font-family: "Lucida Console", "Courier New", monospace;
+}

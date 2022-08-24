@@ -1,0 +1,27 @@
+[
+    {
+        "title":"What is another name for fish farming",
+        "options":["Aquaculture", "Acquarium", "Acuanation"],
+        "correctOptionIndex":"0"
+    },
+    {
+        "title":"Is fish farming profitable?",
+        "options":["no", "yes", "maybe"],
+        "correctOptionIndex":"1"
+    },
+    {
+        "title":"What is the easiest fish to farm?",
+        "options":["Electric fish", "Tilapia", "Titus"],
+        "correctOptionIndex":"1"
+    },
+    {
+        "title":"How long does it take a fish to mature in a pond?",
+        "options":["3-5 months", "1-2 months", "6-9 months"],
+        "correctOptionIndex":"2"
+    },
+    {
+        "title":"What is the major problem in fish farming?",
+        "options":["Specie of fish to rear", "Lack of good quality stock", "Lack of available space in the pond"],
+        "correctOptionIndex":"1"
+    }
+]
