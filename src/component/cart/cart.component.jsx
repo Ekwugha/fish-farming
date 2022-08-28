@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Col, Row, Table } from 'react-bootstrap';
-import CustomButton from '../button/button.component'
-import AboutHeader from '../about-header/about-header.component';
+// import CustomButton from '../button/button.component'
+// import AboutHeader from '../about-header/about-header.component';
 import './cart.styles.css'
 
 function Cart() {
     return (
         <div className="shadow border-0 rounded-0">
-             <AboutHeader> Cart </AboutHeader>
+             {/* <AboutHeader> Cart </AboutHeader> */}
             <section className="py-5">
                 <Container dataaos='fade-up' className=" box-shadow-full">
                     <Row>
@@ -50,34 +50,22 @@ function Cart() {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                            <td>1</td>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
+                                                <td>1</td>
+                                                <td>Tilapia</td>
+                                                <td>2</td>
+                                                <td>₦ 2400</td>
                                             </tr>
                                             <tr>
-                                            <td>2</td>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
+                                                <td>2</td>
+                                                <td>Mackerel</td>
+                                                <td>1</td>
+                                                <td>₦ 2500</td>
                                             </tr>
                                             <tr>
-                                            <td>3</td>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                            <td>4</td>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                            <td>5</td>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
+                                                <td>3</td>
+                                                <td>CatFish</td>
+                                                <td>2</td>
+                                                <td>₦ 4200</td>
                                             </tr>
                                         </tbody>
                                     </Table> 
@@ -93,7 +81,7 @@ function Cart() {
                                         <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" />
                                         <label className="form-check-label" htmlFor="exampleRadios2">  Payment Online </label>
                                     </div>
-                                    <CustomButton> Order Now </CustomButton>
+                                    <button> Order Now </button>
                                     </Row>
                                 </Col>
                             </Row>

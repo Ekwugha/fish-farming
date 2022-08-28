@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Container, Col, Row, Card } from 'react-bootstrap';
-import AboutHeader from '../about-header/about-header.component';
+// import AboutHeader from '../about-header/about-header.component';
 import MenuData from '../menudata/menudata.component';
-import CustomButton from '../button/button.component';
-import Pagination from "react-js-pagination";
+// import CustomButton from '../button/button.component';
+// import Pagination from "react-js-pagination";
 
 import './menu.styles.css';
 class Menu extends Component {
@@ -34,14 +34,14 @@ class Menu extends Component {
     //     />
     //   </div>
         <div>
-            <Pagination
+            {/* <Pagination
                 activePage={this.state.activePage}
                 itemsCountPerPage={6}
                 totalItemsCount={22}
                 pageRangeDisplayed={5}
                 onChange={this.handlePageChange.bind(this)}
-            />
-            <AboutHeader> Menu </AboutHeader>
+            /> */}
+            {/* <AboutHeader> Menu </AboutHeader> */}
             <section className="py-5">
                 <Container dataaos='fade-up' className="box-shadow-full">
                     <Row>
@@ -54,17 +54,19 @@ class Menu extends Component {
                                             <Card.Text className="m-3">
                                             <div className="form-group">
                                                 <label htmlFor=""> Keyword </label>
-                                                <input className="form-control" type="text" placeholder="e.g rice" />
+                                                <input className="form-control" type="text" placeholder="e.g catFish" />
                                             </div> <br/>
 
                                             <div className="form-group">
                                                 <label className="text-dark"> Category </label>
                                                 <select className="form-control" id="category">
                                                     <option> All </option>
-                                                    <option> Rice </option>
-                                                    <option> Drinks </option>
-                                                    <option> Chicken/Turkey </option>
-                                                    <option> Snacks </option>
+                                                    <option> Tilapia </option>
+                                                    <option> Catfish </option>
+                                                    <option> Tuna </option>
+                                                    <option> Titus </option>
+                                                    <option> Mackerel </option>
+                                                    <option> Salmon </option>
                                                 </select>
                                             </div> <br/>
 
@@ -90,7 +92,7 @@ class Menu extends Component {
                                             </div>
                                             </Card.Text>
                                             <div className="mx-3 mb-2">
-                                                <CustomButton> Search </CustomButton>
+                                                <button> Search </button>
                                             </div>
                                         </Card>
                                     </form>

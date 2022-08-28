@@ -1,8 +1,8 @@
 import React from 'react';
 import CardBody from '../card/card.component';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
-import CustomButton from '../button/button.component';
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+// import CustomButton from '../button/button.component';
 
 export class MenuData extends React.Component {
     constructor() {
@@ -12,196 +12,52 @@ export class MenuData extends React.Component {
             sections: [
                 {
                   id: 1,
-                  category: 'Snacks',
-                  image: "assest/meat_pie.jpg",
-                  title: 'Meat pie',
-                  price: '₦ 250.00',
-                  add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
+                  category: 'CatFish',
+                  image: "assest/catfish.png",
+                  title: 'CatFish',
+                  price: '₦ 2200.00',
+                  add: <button> Add To Cart  </button>
                 },
                 {
                     id: 2,
-                    category: 'Snacks',
-                    image:  "assest/chicken_pie.jpg",
-                    title: 'Chicken pie',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
+                    category: 'Salmon',
+                    image: "assest/salmon.jpg",
+                    title: 'Salmon',
+                    price: '₦ 1500.00',
+                    add: <button> Add To Cart  </button>
                 },
-                {
+                  {
                     id: 3,
-                    category: 'Snacks',
-                    image:  "assest/beef_roll.jpg",
-                    title: 'Beef roll',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
+                    category: 'Tuna',
+                    image: "assest/tuna.jpg",
+                    title: 'Tuna',
+                    price: '₦ 2000.00',
+                    add: <button> Add To Cart  </button>
+                  },
+                  {
                     id: 4,
-                    image:  "assest/doughnuts.jpg",
-                    category: 'Snacks',
-                    title: 'Doughnut',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
+                    category: 'Mackerel',
+                    image: "assest/mackerel.jpg",
+                    title: 'Mackerel',
+                    price: '₦ 2500.00',
+                    add: <button> Add To Cart  </button>
+                  },
+                  {
                     id: 5,
-                    category: 'Snacks',
-                    image: "assest/scotch_eggs.jpg",
-                    title: 'Scotch egg',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
+                    category: 'Tilapia',
+                    image: "assest/tilapia.jpg",
+                    title: 'Tilapia',
+                    price: '₦ 1200.00',
+                    add: <button> Add To Cart  </button>
+                  },
+                  {
                     id: 6,
-                    category: 'Snacks',
-                    image: "assest/buristos.jpg",
-                    title: 'Buristos',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 7,
-                    category: 'Snacks',
-                    image:  "assest/gigi_roll.jpg",
-                    title: 'Gigi Roll',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 8,
-                    category: 'Snacks',
-                    image: "assest/cake.jpg",
-                    title: 'Triangle cake',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 9,
-                    category: 'Snacks',
-                    image: "assest/cake.jpg",
-                    title: 'Hexagon cake',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 10,
-                    category: 'Rice',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 11,
-                    category: 'Rice',
-                    image: "assest/cake.jpg",
-                    title: 'Fried Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 12,
-                    category: 'Rice',
-                    image: "assest/cake.jpg",
-                    title: 'Rice and Stew',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 13,
-                    category: 'Drinks',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 14,
-                    category: 'Drinks',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 15,
-                    category: 'Drinks',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 16,
-                    category: 'Drinks',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 17,
-                    category: 'Drinks',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 18,
-                    category: 'Drinks',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 19,
-                    category: 'Drinks',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 20,
-                    category: 'Drinks',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 21,
-                    category: 'Drinks',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 22,
-                    category: 'Drinks',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 23,
-                    category: 'Chicken / Turkey',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
-                {
-                    id: 24,
-                    category: 'Chicken / Turkey',
-                    image: "assest/cake.jpg",
-                    title: 'Jollof Rice',
-                    price: '₦ 250.00',
-                    add: <CustomButton> Add To Cart <FontAwesomeIcon icon={faShoppingCart}/>  </CustomButton>
-                },
+                    category: 'Titus',
+                    image: "assest/titus.jpg",
+                    title: 'Titus',
+                    price: '₦ 1500.00',
+                    add: <button> Add To Cart  </button>
+                  },
             ]
               
         }
