@@ -44,6 +44,7 @@ export default function CustomNavbar() {
                         <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > Home </Nav.Link>
                         <Nav.Link as={Link} to="/calendar" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} >Calendar</Nav.Link>
                         <Nav.Link as={Link} to="/quiz" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} >Quiz</Nav.Link>
+                        <Nav.Link as={Link} to="/pdf" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} >Pdf</Nav.Link>
                         <Nav.Link as={Link} to="/contact" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} >Contact us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

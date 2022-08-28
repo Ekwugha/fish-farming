@@ -6,11 +6,6 @@ import { Container, Col, Row } from 'react-bootstrap';
 import './contact.styles.css'
 
 function Contact() {
-    // function sendEmail(e) {
-    //     e.preventDefault();
-
-    //     emailjs.sendForm();
-    // }
     return (
         <div>
             {/* <AboutHeader> Contact Us </AboutHeader> */}
@@ -18,11 +13,6 @@ function Contact() {
             <Container>
                 <Row>
                     <Col>
-                    {/* <form action="https://formspree.io/f/{form_id}" method="post">
-  <label for="email">Your Email</label>
-  <input name="Email" id="email" type="email">
-  <button type="submit">Submit</button>
-</form> */}
                         <div className="box-shadow-full">
                             <Row>
                                 <h3 className="text-dark"> Reach out to us. </h3>
